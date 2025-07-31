@@ -17,7 +17,7 @@ A Node.js TypeScript application that downloads images from Unsplash API based o
 - pnpm package manager
 - Unsplash API access key
 
-## Get API Keys from Unsplash
+## Get the API Access Key from Unsplash
 
 - Create an account -> https://unsplash.com/join
 
@@ -29,7 +29,7 @@ A Node.js TypeScript application that downloads images from Unsplash API based o
 
 - Add your application’s name and description.
 
-- Scroll down to 🔑 Keys section (this is where you’ll need to copy your Access key for API requests).
+- Scroll down to 🔑 Keys section (this is where you’ll need to copy your Access Key for API requests).
 
 - At the bottom 🔒Permissions section, select: Public access, Read photos and Read collections access.
 
@@ -44,8 +44,8 @@ A Node.js TypeScript application that downloads images from Unsplash API based o
 
 3. **Configure Unsplash API**
    - Copy `.env.example` to `.env`
-   - Get your API access key from [Unsplash Developers](https://unsplash.com/developers)
-   - Add your access key to the `.env` file:
+   - Get your API Access Key from [Unsplash Developers](https://unsplash.com/developers)
+   - Add your Access Key to the `.env` file:
      ```
      UNSPLASH_ACCESS_KEY=your_access_key_here
      ```
